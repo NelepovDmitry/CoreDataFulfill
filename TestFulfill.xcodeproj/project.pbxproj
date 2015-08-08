@@ -15,6 +15,9 @@
 		003FAAEF1B75DC8A001BD990 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003FAAEE1B75DC8A001BD990 /* Images.xcassets */; };
 		003FAAF21B75DC8A001BD990 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 003FAAF01B75DC8A001BD990 /* LaunchScreen.xib */; };
 		003FAAFE1B75DC8A001BD990 /* TestFulfillTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 003FAAFD1B75DC8A001BD990 /* TestFulfillTests.m */; };
+		003FAB091B75DCD5001BD990 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 003FAB081B75DCD5001BD990 /* User.m */; };
+		003FAB0C1B75E050001BD990 /* FWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003FAB0B1B75E050001BD990 /* FWViewController.m */; };
+		003FAB0F1B75E488001BD990 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 003FAB0E1B75E488001BD990 /* Session.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,12 @@
 		003FAAF71B75DC8A001BD990 /* TestFulfillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFulfillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		003FAAFC1B75DC8A001BD990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		003FAAFD1B75DC8A001BD990 /* TestFulfillTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFulfillTests.m; sourceTree = "<group>"; };
+		003FAB071B75DCD5001BD990 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		003FAB081B75DCD5001BD990 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		003FAB0A1B75E050001BD990 /* FWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWViewController.h; sourceTree = "<group>"; };
+		003FAB0B1B75E050001BD990 /* FWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWViewController.m; sourceTree = "<group>"; };
+		003FAB0D1B75E488001BD990 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		003FAB0E1B75E488001BD990 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +101,12 @@
 				003FAAF01B75DC8A001BD990 /* LaunchScreen.xib */,
 				003FAAE51B75DC8A001BD990 /* TestFulfill.xcdatamodeld */,
 				003FAADE1B75DC8A001BD990 /* Supporting Files */,
+				003FAB071B75DCD5001BD990 /* User.h */,
+				003FAB081B75DCD5001BD990 /* User.m */,
+				003FAB0A1B75E050001BD990 /* FWViewController.h */,
+				003FAB0B1B75E050001BD990 /* FWViewController.m */,
+				003FAB0D1B75E488001BD990 /* Session.h */,
+				003FAB0E1B75E488001BD990 /* Session.m */,
 			);
 			path = TestFulfill;
 			sourceTree = "<group>";
@@ -222,10 +237,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003FAB091B75DCD5001BD990 /* User.m in Sources */,
 				003FAAE41B75DC8A001BD990 /* AppDelegate.m in Sources */,
 				003FAAE11B75DC8A001BD990 /* main.m in Sources */,
 				003FAAEA1B75DC8A001BD990 /* ViewController.m in Sources */,
 				003FAAE71B75DC8A001BD990 /* TestFulfill.xcdatamodeld in Sources */,
+				003FAB0C1B75E050001BD990 /* FWViewController.m in Sources */,
+				003FAB0F1B75E488001BD990 /* Session.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

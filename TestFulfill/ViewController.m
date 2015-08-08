@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FWViewController.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.app = [UIApplication sharedApplication].delegate;
+    NSLog(@"User:%@ name %@", [Session session].user, [Session session].user.name);
+    NSAssert(![Session session].user.isFault, @"Yes we here");
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)showNextAction:(UIButton *)sender {
+    FWViewController *vc = [[FWViewController alloc] init];
+    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:vc] animated:YES completion:nil];
 }
 
 @end
